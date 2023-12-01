@@ -5,8 +5,8 @@
 if (!"tidyverse" %in% .packages()) library(tidyverse)
 
 # 1 Import data -----------------------------------------------------------
-table_1  <- read.csv("data/table_1.csv")  # table in discussion section
-table_s2 <- read.csv("data/table_s2.csv") # table in supplementary material
+table_1  <- read.csv("data/table_1.csv", fileEncoding = "UTF-8")  # table in discussion section
+table_s2 <- read.csv("data/table_s2.csv", fileEncoding = "UTF-8") # table in supplementary material
 
 # 2 Data Processing ---------------------------------------------------------
 
